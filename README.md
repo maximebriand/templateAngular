@@ -1,4 +1,13 @@
 # TemplateAngular
+Ce projet template va permettre à tous de pouvoir initier un projet Angular rapidement
+avec plusieurs bonnes pratiques.
+
+Le projet fonctionne avec SASS afin de simplifier la gestion des styles. Aussi tous les fichiers
+CSS générés avec les composants seront supprimés.
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
