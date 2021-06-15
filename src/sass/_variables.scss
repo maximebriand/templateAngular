@@ -1,0 +1,47 @@
+/*========== colors ==========*/
+$first-color:;
+$first-color-second:;
+$first-color-alt:;
+$first-color-lighter:;
+$title-color:;
+$text-color:;
+$text-color-light:;
+$input-color:;
+$body-color:;
+$container-color:;
+
+// /*========== margins / paddings ==========*/
+/* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+$mp-0-25: .25rem;
+$mp-0-5: .5rem;
+$mp-0-75: .75rem;
+$mp-1: 1rem;
+$mp-1-5: 1.5rem;
+$mp-2: 2rem;
+$mp-2-5: 2.5rem;
+$mp-3: 3rem;
+
+
+/*========== z index ==========*/
+$z-initial: 1;
+$z-tooltip: 2;
+$z-fixed: 3;
+$z-modal: 5;
+
+/*========== breakpoints ==========*/
+/*
+    la mixins @include breakpoint prend par défaut 
+    la valeur min-width si il n'y a qu'un nombre.
+    Si on veut faire des max-width il faut faire
+    max-width 1240px par ex.
+
+    Les breakpoints sont ceux de bootstrap et sont donc 
+    à utiliser pour du mobile first (min-width)
+*/
+$xs: 0,
+$sm: 576px,
+$md: 768px,
+$lg: 992px,
+$xl: 1200px,
+$xxl: 1400px
+
