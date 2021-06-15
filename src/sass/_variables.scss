@@ -1,14 +1,11 @@
 /*========== colors ==========*/
-$first-color:;
-$first-color-second:;
-$first-color-alt:;
-$first-color-lighter:;
-$title-color:;
-$text-color:;
-$text-color-light:;
-$input-color:;
-$body-color:;
-$container-color:;
+$first-color:#1E2535    ;
+$second-color:#243C58;
+$third-color:#486177;
+$container-color:#909A9C;
+$text-color:#202426;
+$input-color:#202426;
+$body-color:#E0E0D4;
 
 // /*========== margins / paddings ==========*/
 /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
@@ -38,10 +35,10 @@ $z-modal: 5;
     Les breakpoints sont ceux de bootstrap et sont donc 
     à utiliser pour du mobile first (min-width)
 */
-$xs: 0,
-$sm: 576px,
-$md: 768px,
-$lg: 992px,
-$xl: 1200px,
-$xxl: 1400px
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
 

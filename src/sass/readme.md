@@ -9,7 +9,14 @@ Il est donc important de bien l'utiliser dans la nomenclature pour ne compiler q
 seul fichier css. Attention, lors des imports, on ne mentionne ni le underscore ni l'extension.
 
 
-##Le dossier SASS est à gérer de manière à s'y retrouver facilement:
+###Le dossier SASS est à gérer de manière à s'y retrouver facilement:
+####Organisation
+Chaque dossier contient un fichier qui a le même nom que le dossier.
+Ainsi cela nous permet d'avoir un fichier styles.scss qui reste léger 
+et où on voit tout de suite ce qui est chargé.
+
+
+
 ####Reset de Meyer
 Il Permet de supprimer tous les styles CSS imposés par chaque navigateur.
 Cela permet de créer un site qui s'adaptera à tous les navigateurs car on 
