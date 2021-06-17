@@ -1,0 +1,58 @@
+.alerts {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 1rem;
+  z-index: 10000;
+
+  .alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .42rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto auto 40px;
+    color: $white;
+  }
+
+  .alert-primary {
+    background-color: $first-color;
+    border-color: $first-color;
+  }
+
+  .alert-success {
+    background-color: $vert;
+    border-color: $vert;
+  }
+
+  .alert-info {
+    background-color: $violet;
+    border-color: $violet;
+  }
+
+  .alert-warning {
+    background-color: $warning;
+    border-color: $warning;
+  }
+
+  .alert-danger {
+    background-color: $danger;
+    border-color: $danger;
+  }
+
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+
+  .message-div {
+    flex: 0 0 85%;
+  }
+
+  .close-div {
+    flex: 1;
+  }
+}

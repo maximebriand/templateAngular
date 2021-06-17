@@ -1,0 +1,15 @@
+<section class="pays">
+  <section class="cover">
+    <img src="{{country.flag}}" alt="">
+  </section>
+  <section class="content">
+    <h1>{{country.name}}</h1>
+
+    <h3>Traduction</h3>
+    <ul>
+      <li *ngFor="let trad of country.translations | keyvalue">
+        {{trad.key}} : {{ trad.value}}
+      </li>
+    </ul>
+  </section>
+</section>

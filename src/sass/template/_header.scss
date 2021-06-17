@@ -1,12 +1,16 @@
-header{
-    background-color: $first-color;
-    display: inline-flex;
-    width: 100vw;
-    padding: $mp-1;
+header {
+  background-color: $first-color;
+  display: inline-flex;
+  width: 100vw;
+  padding: $mp-1;
+  color: $body-color;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  inset: 0;
+  bottom: auto;
+
+  nav ul li a {
     color: $body-color;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    inset: 0;
-    bottom: auto;
+  }
 }

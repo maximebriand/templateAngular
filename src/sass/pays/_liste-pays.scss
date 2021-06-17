@@ -1,0 +1,12 @@
+.liste-pays{
+    ul li a {
+        margin-bottom: $mp-2;
+        display: flex;
+        align-items: center;
+        color: $text-color;
+        img {
+            max-width: 200px;
+            margin-right: $mp-0-75;
+        }
+    }
+}

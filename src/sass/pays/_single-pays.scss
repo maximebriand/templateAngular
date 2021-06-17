@@ -1,0 +1,12 @@
+section.pays {
+    .cover {
+        height: 33vh;
+        width: 100vw;
+        margin-bottom: $mp-2;
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

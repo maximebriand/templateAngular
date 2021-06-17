@@ -1,3 +1,12 @@
 <header>
-    <img src="assets/logo_pole_emploi_white.png" alt="">qsdqsdsqd
+  <a [routerLink]="['/']" routerLinkActive="router-link-active">
+    <img src="assets/logo_pole_emploi_white.png" alt=""></a>
+  <nav>
+    <ul>
+      <li>
+        <a [routerLink]="['/login']" routerLinkActive="router-link-active">Login</a>
+        <a [routerLink]="['/countries']" routerLinkActive="router-link-active">Countries</a>
+      </li>
+    </ul>
+  </nav>
 </header>

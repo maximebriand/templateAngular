@@ -8,7 +8,6 @@ const homeRoutes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    // resolve: { motifs: HomepageResolver },
   },
 
 ];

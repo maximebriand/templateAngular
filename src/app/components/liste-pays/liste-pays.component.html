@@ -1,0 +1,10 @@
+<section class="liste-pays">
+  <ul>
+    <li *ngFor="let country of countries">
+      <a [routerLink]="['country', country.name]">
+        <img src="{{country.flag}}" alt="" srcset="">
+        {{country.name}}
+      </a>
+    </li>
+  </ul>
+</section>
