@@ -1,0 +1,9 @@
+<section class="loader" *ngIf="loading">
+  <div class="cancel" (click)="onCancel()">
+    <span class="material-icons">
+      clear
+    </span>
+  </div>
+  <div class="spinner"></div>
+  <p>{{loaderMessage}}</p>
+</section>

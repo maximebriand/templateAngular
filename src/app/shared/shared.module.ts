@@ -5,12 +5,14 @@ import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from '../shared/template/header.component';
 import { AlertModule } from './alert/alert.module';
+import { LoaderComponent } from './loader/loader.component';
 
 
 
 @NgModule({
     declarations: [
-        HeaderComponent
+        HeaderComponent,
+        LoaderComponent
     ],
     imports: [
         CommonModule,
@@ -21,7 +23,8 @@ import { AlertModule } from './alert/alert.module';
     exports: [
         HeaderComponent,
         RouterModule,
-        AlertModule
+        AlertModule,
+        LoaderComponent
     ],
     providers: [],
 })

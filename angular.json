@@ -66,6 +66,9 @@
           "configurations": {
             "production": {
               "browserTarget": "TemplateAngular:build:production"
+            },
+            "local": {
+              "proxyConfig": "proxy/proxy.local.json"
             }
           }
         },
